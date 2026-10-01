@@ -1,0 +1,103 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Hello_Adventurer
+{
+   
+    internal class Program
+    {
+        string imie;
+        int hp, atk, mana;
+
+        void ShowKlasa() {
+            Console.WriteLine("| -----------------------------------------------|");
+            Console.WriteLine("| Wizard \t\t\t\t\t |");
+            Console.WriteLine("| Hp: 5 \t\t\t\t\t |");
+            Console.WriteLine("| Atk: 8 \t\t\t\t\t |");
+            Console.WriteLine("| Mana: 20 \t\t\t\t\t |");
+            Console.WriteLine("| -----------------------------------------------|");
+
+            Console.WriteLine("| -----------------------------------------------|");
+            Console.WriteLine("| Warrior \t\t\t\t\t |");
+            Console.WriteLine("| Hp: 30 \t\t\t\t\t |");
+            Console.WriteLine("| Atk: 15 \t\t\t\t\t |");
+            Console.WriteLine("| Mana: 0 \t\t\t\t\t |");
+            Console.WriteLine("| -----------------------------------------------|");
+
+            Console.WriteLine("| -----------------------------------------------|");
+            Console.WriteLine("| Rogue \t\t\t\t\t |");
+            Console.WriteLine("| Hp: 20 \t\t\t\t\t |");
+            Console.WriteLine("| Atk: 20 \t\t\t\t\t |");
+            Console.WriteLine("| Mana: 10 \t\t\t\t\t |");
+            Console.WriteLine("| -----------------------------------------------|");
+        }
+        void WelcomeScreen() {
+            Console.WriteLine("| -----------------------------------------------|");
+            Console.WriteLine("| \tWitaj w Hello Adventurer!\t\t |");
+            Console.WriteLine("| -----------------------------------------------|");
+            Console.WriteLine("|By zacząc rozgrywke przydałoby się mieć imię... |");
+            Console.WriteLine("| -----------------------------------------------|");
+
+            imie = Console.ReadLine();
+            Console.WriteLine();
+            Console.WriteLine("| -----------------------------------------------|");
+            Console.WriteLine("" + imie + ", hmm ciekawe, wybierz teraz klase podróżniku");
+
+            ShowKlasa();
+            Boolean Pick = true;
+            while (Pick == true) {
+                Pick = false;
+            string wybor;
+            wybor = Console.ReadLine();
+                switch (wybor)
+                {
+                    case "Wizard":
+                        hp = 5;
+                        atk = 8;
+                        mana = 20;
+                        break;
+                    case "Warrior":
+                        hp = 35;
+                        atk = 15;
+                        mana = 0;
+                        break;
+                    case "Rogue":
+                        hp = 20;
+                        atk = 20;
+                        mana = 10;
+                        break;
+                    default:
+                        Console.WriteLine("Niepoprawna klasa, spróbuj ponownie.");
+                        Pick = true;
+                        break;
+                }
+            }
+            Console.WriteLine("Fascynujące..., chcesz rozpocząć gre?");
+            Console.ReadLine();
+            Console.WriteLine("Wyśmienicie!");
+            Console.WriteLine("| -----------------------------------------------|");
+            Console.WriteLine("| Oto przydatne miejsca które warto odwiedzić!\t |");
+            Console.WriteLine("| Karta Poszukiwacza, Bohater, Dziennik \t |");
+            Console.WriteLine("| Wystarczy że wpiszesz któreś z tych miejsc!\t |");
+
+
+        }
+
+
+        static void Main(string[] args)
+        {
+            Program prog;
+            prog = new Program(); 
+            prog.WelcomeScreen();
+            
+
+
+
+
+
+        }
+    }
+}
