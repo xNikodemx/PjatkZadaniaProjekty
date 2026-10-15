@@ -1,0 +1,15 @@
+Z:\test\PjatkZadaniaProjekty\Week3Quest\Week3Program\obj\Debug\net10.0\Week3Program.GeneratedMSBuildEditorConfig.editorconfig
+Z:\test\PjatkZadaniaProjekty\Week3Quest\Week3Program\obj\Debug\net10.0\Week3Program.AssemblyInfoInputs.cache
+Z:\test\PjatkZadaniaProjekty\Week3Quest\Week3Program\obj\Debug\net10.0\Week3Program.AssemblyInfo.cs
+Z:\test\PjatkZadaniaProjekty\Week3Quest\Week3Program\obj\Debug\net10.0\Week3Program.csproj.CoreCompileInputs.cache
+Z:\test\PjatkZadaniaProjekty\Week3Quest\Week3Program\obj\Debug\net10.0\Week3Program.sourcelink.json
+Z:\test\PjatkZadaniaProjekty\Week3Quest\Week3Program\bin\Debug\net10.0\Week3Program.exe
+Z:\test\PjatkZadaniaProjekty\Week3Quest\Week3Program\bin\Debug\net10.0\Week3Program.deps.json
+Z:\test\PjatkZadaniaProjekty\Week3Quest\Week3Program\bin\Debug\net10.0\Week3Program.runtimeconfig.json
+Z:\test\PjatkZadaniaProjekty\Week3Quest\Week3Program\bin\Debug\net10.0\Week3Program.dll
+Z:\test\PjatkZadaniaProjekty\Week3Quest\Week3Program\bin\Debug\net10.0\Week3Program.pdb
+Z:\test\PjatkZadaniaProjekty\Week3Quest\Week3Program\obj\Debug\net10.0\Week3Program.dll
+Z:\test\PjatkZadaniaProjekty\Week3Quest\Week3Program\obj\Debug\net10.0\refint\Week3Program.dll
+Z:\test\PjatkZadaniaProjekty\Week3Quest\Week3Program\obj\Debug\net10.0\Week3Program.pdb
+Z:\test\PjatkZadaniaProjekty\Week3Quest\Week3Program\obj\Debug\net10.0\Week3Program.genruntimeconfig.cache
+Z:\test\PjatkZadaniaProjekty\Week3Quest\Week3Program\obj\Debug\net10.0\ref\Week3Program.dll
