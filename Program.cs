@@ -316,54 +316,7 @@ namespace Hello_Adventurer
             }
         } // glowna czesc odpowiadajaca za poczatek programu
 
-        string CzyParzysta(int SendV)
-        {
-            if (SendV % 2 != 0) { return "Nie-Parzysta"; }
-            else if (SendV == 0) { return "To jest zero"; }
-            else if (SendV % 2 == 0) { return "Parzysta"; }
-            return "cos poszlo nie tak";
-        }
 
-        string JakiKierunek(string direction)
-        {
-            switch (direction)
-            {
-                case "północ":
-                    return "Wyruszasz w stronę gór.";
-                case "południe":
-                    return "Wyruszasz w stronę pustyni.";
-                case "wschód":
-                    return "Wyruszasz w stronę lasu.";
-                case "zachód":
-                    return "Wyruszasz w stronę morza.";
-                default:
-                    return "Nieznany kierunek";
-            }
-        }
-
-        string CheckAge(int wiek)
-        {
-            if (wiek < 0) { return "niepoprawny wiek"; }
-            else if (wiek >= 0 && wiek <= 12) { return "dziecko"; }
-            else if (wiek >= 13 && wiek <= 17) { return "nastolatek"; }
-            else if (wiek >= 18 && wiek <= 64) { return "dorosły"; }
-            else if (wiek >= 65) { return "senior"; }
-            return "cos poszlo nie tak";
-        }
-
-        void BohaterLochy(){
-        hp = Maxhp;
-        Console.WriteLine("Czy posiadasz klucz");
-        bool klucz = (Console.ReadLine() == "tak") ? true : false;
-        Console.WriteLine("Czy posiadasz hasło?");
-        bool haslo = (Console.ReadLine() == "tak") ? true : false;
-
-        if(hp == 0){Console.WriteLine("Niestety nie zyjesz."); return;}
-        if(klucz == true || haslo == true){Console.WriteLine("Mozesz wejść");}
-        else{Console.WriteLine("You shall not pass");}
-
-
-        }
 
         static void Main(string[] args)
         {
