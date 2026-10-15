@@ -1,0 +1,15 @@
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\PjatkZadaniaProjekty.GeneratedMSBuildEditorConfig.editorconfig
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\PjatkZadaniaProjekty.AssemblyInfoInputs.cache
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\PjatkZadaniaProjekty.AssemblyInfo.cs
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\PjatkZadaniaProjekty.csproj.CoreCompileInputs.cache
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\PjatkZadaniaProjekty.sourcelink.json
+Z:\test\PjatkZadaniaProjekty\bin\Debug\net10.0\PjatkZadaniaProjekty.exe
+Z:\test\PjatkZadaniaProjekty\bin\Debug\net10.0\PjatkZadaniaProjekty.deps.json
+Z:\test\PjatkZadaniaProjekty\bin\Debug\net10.0\PjatkZadaniaProjekty.runtimeconfig.json
+Z:\test\PjatkZadaniaProjekty\bin\Debug\net10.0\PjatkZadaniaProjekty.dll
+Z:\test\PjatkZadaniaProjekty\bin\Debug\net10.0\PjatkZadaniaProjekty.pdb
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\PjatkZadaniaProjekty.dll
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\refint\PjatkZadaniaProjekty.dll
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\PjatkZadaniaProjekty.pdb
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\PjatkZadaniaProjekty.genruntimeconfig.cache
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\ref\PjatkZadaniaProjekty.dll

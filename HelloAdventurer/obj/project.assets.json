@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\test\\PjatkZadaniaProjekty\\Program.csproj",
-      "projectName": "Program",
-      "projectPath": "Z:\\test\\PjatkZadaniaProjekty\\Program.csproj",
+      "projectUniqueName": "Z:\\test\\PjatkZadaniaProjekty\\PjatkZadaniaProjekty.csproj",
+      "projectName": "PjatkZadaniaProjekty",
+      "projectPath": "Z:\\test\\PjatkZadaniaProjekty\\PjatkZadaniaProjekty.csproj",
       "packagesPath": "C:\\Users\\s37406\\.nuget\\packages\\",
       "outputPath": "Z:\\test\\PjatkZadaniaProjekty\\obj\\",
       "projectStyle": "PackageReference",
