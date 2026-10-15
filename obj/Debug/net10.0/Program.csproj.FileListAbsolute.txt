@@ -1,0 +1,15 @@
+Z:\test\PjatkZadaniaProjekty\bin\Debug\net10.0\Program.exe
+Z:\test\PjatkZadaniaProjekty\bin\Debug\net10.0\Program.deps.json
+Z:\test\PjatkZadaniaProjekty\bin\Debug\net10.0\Program.runtimeconfig.json
+Z:\test\PjatkZadaniaProjekty\bin\Debug\net10.0\Program.dll
+Z:\test\PjatkZadaniaProjekty\bin\Debug\net10.0\Program.pdb
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\Program.GeneratedMSBuildEditorConfig.editorconfig
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\Program.AssemblyInfoInputs.cache
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\Program.AssemblyInfo.cs
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\Program.csproj.CoreCompileInputs.cache
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\Program.sourcelink.json
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\Program.dll
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\refint\Program.dll
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\Program.pdb
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\Program.genruntimeconfig.cache
+Z:\test\PjatkZadaniaProjekty\obj\Debug\net10.0\ref\Program.dll
