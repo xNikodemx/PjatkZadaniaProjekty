@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PjatkZadaniaProjekty")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e814ccaa4197065ed202239b74563cf3863e6cd0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf001f6291f13cb22c5d750c70f912e3a9e98335")]
 [assembly: System.Reflection.AssemblyProductAttribute("PjatkZadaniaProjekty")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PjatkZadaniaProjekty")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

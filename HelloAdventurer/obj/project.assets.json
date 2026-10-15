@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\test\\PjatkZadaniaProjekty\\PjatkZadaniaProjekty.csproj",
+      "projectUniqueName": "Z:\\test\\PjatkZadaniaProjekty\\HelloAdventurer\\PjatkZadaniaProjekty.csproj",
       "projectName": "PjatkZadaniaProjekty",
-      "projectPath": "Z:\\test\\PjatkZadaniaProjekty\\PjatkZadaniaProjekty.csproj",
+      "projectPath": "Z:\\test\\PjatkZadaniaProjekty\\HelloAdventurer\\PjatkZadaniaProjekty.csproj",
       "packagesPath": "C:\\Users\\s37406\\.nuget\\packages\\",
-      "outputPath": "Z:\\test\\PjatkZadaniaProjekty\\obj\\",
+      "outputPath": "Z:\\test\\PjatkZadaniaProjekty\\HelloAdventurer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\s37406\\AppData\\Roaming\\NuGet\\NuGet.Config"
