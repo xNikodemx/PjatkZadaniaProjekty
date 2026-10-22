@@ -147,6 +147,11 @@ internal class Program
 
         while (prog.graDziala == true) 
         {
+        if(prog.numertury >= 20){
+            Console.WriteLine("Osiągnięto limit tur: " + prog.numertury + "\n Gra zostaje zakończona.");
+            prog.graDziala = false;
+            continue;
+        }
         if(prog.punktyZycia <= 0){
             Console.WriteLine("Nie posiadasz już zdrowia");
             prog.graDziala = false;
