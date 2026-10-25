@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Week4-1-6Quests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bbe4b678e206c704457f5a915826975df7ab67b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9f15d8a3c759d5e08a9a69c98c977ee597ab350")]
 [assembly: System.Reflection.AssemblyProductAttribute("Week4-1-6Quests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Week4-1-6Quests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

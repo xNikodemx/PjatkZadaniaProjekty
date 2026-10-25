@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\PjatkZadaniaProjekty\\Week4-1-6Quests\\Week4-1-6Quests.csproj": {}
+    "C:\\Users\\nikod\\documents\\PjatkZadaniaProjekty\\Week4-1-6Quests\\Week4-1-6Quests.csproj": {}
   },
   "projects": {
-    "Z:\\PjatkZadaniaProjekty\\Week4-1-6Quests\\Week4-1-6Quests.csproj": {
+    "C:\\Users\\nikod\\documents\\PjatkZadaniaProjekty\\Week4-1-6Quests\\Week4-1-6Quests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\PjatkZadaniaProjekty\\Week4-1-6Quests\\Week4-1-6Quests.csproj",
+        "projectUniqueName": "C:\\Users\\nikod\\documents\\PjatkZadaniaProjekty\\Week4-1-6Quests\\Week4-1-6Quests.csproj",
         "projectName": "Week4-1-6Quests",
-        "projectPath": "Z:\\PjatkZadaniaProjekty\\Week4-1-6Quests\\Week4-1-6Quests.csproj",
-        "packagesPath": "C:\\Users\\s37406\\.nuget\\packages\\",
-        "outputPath": "Z:\\PjatkZadaniaProjekty\\Week4-1-6Quests\\obj\\",
+        "projectPath": "C:\\Users\\nikod\\documents\\PjatkZadaniaProjekty\\Week4-1-6Quests\\Week4-1-6Quests.csproj",
+        "packagesPath": "C:\\Users\\nikod\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikod\\documents\\PjatkZadaniaProjekty\\Week4-1-6Quests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\s37406\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\nikod\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"

@@ -50,22 +50,70 @@ namespace Hello_Adventurer
         }
             }
         void zad3(){
-        for(int i = 6; i >= 1; i--){
-            Console.Write("\n  ");
-            for(int j = i; j <= 5; j++){
-                Console.Write("*");
+        for(int i = 5; i >= 1; i--){
+            for(int t = i; t >= 1; t--){
+                Console.Write(" ");
             }
+            Console.Write("*");
+            for(int j = i; j <= 4; j++){
+                    Console.Write("*");
+                    Console.Write("*");
+            }
+                Console.Write("\n");
         }
+        for(int g = 0; g <= 4; g++){
+        Console.Write(" ");
+        }
+        Console.Write("*");
+        }
+        void zad4(){
+            int calk = 2;
+            string gues = "";
+            bool popr = true;
+            int tura = 0;
+            while(popr){
+            tura++;
+            Console.WriteLine("Aktualna runda: " + tura);
+            Console.WriteLine("Zgadnij liczbe od 1-10");
+            gues = Console.ReadLine();
+            int.TryParse(gues, out int number);
+            if(number == 0){
+            Console.WriteLine("Nie poprawna wartosc");
+            continue;
+            }
+            if(number > 10 || number <= 0){
+            Console.WriteLine("Wartosc jest powyzej 10, badz mniejsza lub rowna 0");
+            continue;
+            }
+            if(calk != number){
+            Console.WriteLine("Niestety nie udało ci się zgadnąć");
+            continue;
+            }
+            if(calk == number){
+            Console.WriteLine("Udało ci się!");
+            popr = false;
+            break;
+            }
+
+
+            }
+
+
 
         }
-           
-
+        void zad5(){
+        int zdrowieBohatera = 60;
+        int zdrowiePrzeciwnika = 45;
+        int liczbaMikstur = 2;
+        int numerTury = 1;
+        //zrobilem to juz robiac helloadventurer 4.0
+        }
     
     static void Main(string[] args)
         {
             Program p;
             p = new Program();
-            p.zad3();
+            p.zad4();
 
 
 
