@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\s37406\\.nuget\\packages\\": {}
+    "C:\\Users\\nikod\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\PjatkZadaniaProjekty\\Week4Petle\\Week4Petle.csproj",
+      "projectUniqueName": "C:\\Users\\nikod\\documents\\PjatkZadaniaProjekty\\Week4Petle\\Week4Petle.csproj",
       "projectName": "Week4Petle",
-      "projectPath": "Z:\\PjatkZadaniaProjekty\\Week4Petle\\Week4Petle.csproj",
-      "packagesPath": "C:\\Users\\s37406\\.nuget\\packages\\",
-      "outputPath": "Z:\\PjatkZadaniaProjekty\\Week4Petle\\obj\\",
+      "projectPath": "C:\\Users\\nikod\\documents\\PjatkZadaniaProjekty\\Week4Petle\\Week4Petle.csproj",
+      "packagesPath": "C:\\Users\\nikod\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nikod\\documents\\PjatkZadaniaProjekty\\Week4Petle\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\s37406\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\nikod\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"

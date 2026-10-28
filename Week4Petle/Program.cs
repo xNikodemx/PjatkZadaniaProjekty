@@ -10,11 +10,23 @@ internal class Program
     int punktyZycia = 100;
     int makshp = 100;
     int zloto = 20;
-    int liczbaPotek = 3;    
+//    int liczbaPotek = 3;
     int numertury = 1;
     bool graDziala = true; 
     bool blad = true;
     int eksploracje = 0;
+    string[] znaleziska =
+        {
+    "Mikstura",
+    "Klucz",
+    "Pochodnia",
+    "Zwój"
+        };
+        List<string> plecak = new List<string> //limit 6
+        {
+            "Miecz",
+            "Mikstura"
+        };
 
     void zakoncz() {
         Console.WriteLine("Żegnaj.");
@@ -27,7 +39,6 @@ internal class Program
         Console.WriteLine("Bohater: " + imie);
         Console.WriteLine("Hp: " + punktyZycia);
         Console.WriteLine("Złoto: " + zloto);
-        Console.WriteLine("Mikstury: " + liczbaPotek);
         Console.WriteLine("Ekploracje: " + eksploracje);
     }
 
@@ -50,24 +61,24 @@ internal class Program
 
     }
 
-    void Mikstura() {
-    numertury++;
-    if(liczbaPotek <= 0){
-        Console.ForegroundColor = ConsoleColor.Red;
-        Console.WriteLine("Nie masz już potek");
-        Console.ForegroundColor = ConsoleColor.Cyan;
-    }
-    else{
-        Console.ForegroundColor = ConsoleColor.Red;
-        Console.WriteLine("Utraciłeś 1 potkę");
-        Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine("Zyskałeś 20 życia");
-        Console.ForegroundColor = ConsoleColor.Cyan;
-    liczbaPotek-=1;
-    punktyZycia += 20;
-    }
-    
-    }
+//    void Mikstura() {
+//    numertury++;
+//    if(liczbaPotek <= 0){
+//        Console.ForegroundColor = ConsoleColor.Red;
+//        Console.WriteLine("Nie masz już potek");
+//        Console.ForegroundColor = ConsoleColor.Cyan;
+//    }
+//    else{
+//        Console.ForegroundColor = ConsoleColor.Red;
+//        Console.WriteLine("Utraciłeś 1 potkę");
+//        Console.ForegroundColor = ConsoleColor.Green;
+//        Console.WriteLine("Zyskałeś 20 życia");
+//        Console.ForegroundColor = ConsoleColor.Cyan;
+//    liczbaPotek-=1;
+//    punktyZycia += 20;
+//    }
+//
+//    }
 
     void Lochy() {
         numertury++;
@@ -81,6 +92,22 @@ internal class Program
         punktyZycia-=8;
     }
 
+    void znalezisko(){
+    for (int i = 0; i < znaleziska.Count(); i++)
+    {
+        Console.WriteLine(i+1 + ": " + znaleziska[i]);
+    }
+    Console.WriteLine("Jaki item wybierzesz?");
+            int wybierz = (int.Parse(Console.ReadLine())) - 1;
+            plecak.Add(znaleziska[wybierz]);
+//            Console.WriteLine(plecak[2]);
+for (int i = 0; i < plecak.Count(); i++)
+    {
+        Console.WriteLine(i+1 + ": " + plecak[i]);
+    }
+
+    }
+
     void Menu(int Wybor) 
     {
         switch(Wybor){
@@ -88,7 +115,8 @@ internal class Program
                 Lochy();
             break;
             case 2:
-                Mikstura();
+//                Mikstura();
+            Console.WriteLine("placeholder");
             break; 
             case 3:
                 Odpoczynek();
@@ -97,8 +125,13 @@ internal class Program
                 stats();
             break;
             case 5:
+                znalezisko();
+            break;
+            case 6:
                 zakoncz();
             break;
+
+
         }
 
 
@@ -110,10 +143,10 @@ internal class Program
         
         
         
-        Console.WriteLine("\t === HELLO ADVENTURER === \nTura: " + numertury + " \nBohater: " + imie + " \nZdrowie: " + punktyZycia + "/" + makshp + "| Złoto: " + zloto + "| Mikstury: " + liczbaPotek);
+        Console.WriteLine("\t === HELLO ADVENTURER === \nTura: " + numertury + " \nBohater: " + imie + " \nZdrowie: " + punktyZycia + "/" + makshp + "| Złoto: " + zloto);
         
         Console.Write("\n\n");
-        string[] opcje = [" - Eksploruj loch"," - Użyj mikstury"," - Odpocznij"," - Pokaż statystyki"," - Zakończ grę"];
+        string[] opcje = [" - Eksploruj loch"," - Użyj przedmiotu"," - Odpocznij"," - Pokaż statystyki"," - Znajdz przedmiot"," - Zakończ grę"];
         for(int i = 0; i < opcje.Length; i++){
         Console.WriteLine(i+1 + opcje[i]);
         }
@@ -122,7 +155,7 @@ internal class Program
         blad = false;
         string opcja = Console.ReadLine();
         int.TryParse(opcja, out int number);
-        if(number <= 0 || number > 5){
+        if(number <= 0 || number > 6){
             blad = true;
             Console.WriteLine("\n Nieznana lokalizacja, Wybierz ponownie \n");
         }
@@ -139,7 +172,7 @@ internal class Program
         Program prog = new Program();
         Console.WriteLine("Jak cie zwą?");
         prog.imie = Console.ReadLine();
-        if (prog.punktyZycia <= 0 || prog.makshp != 100 || prog.zloto < 0 || prog.liczbaPotek < 0 || prog.numertury < 0)
+        if (prog.punktyZycia <= 0 || prog.makshp != 100 || prog.zloto < 0 || prog.numertury < 0)
         {
             prog.graDziala = false;
             Console.WriteLine("Błąd załadowania statystyk");
