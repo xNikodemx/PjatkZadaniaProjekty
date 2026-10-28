@@ -1,3 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background: tomato;
+  margin: 0; /* Usuwa domyślny margines przeglądarki. */
+  min-height: 100vh; /* Zapewnia wysokość co najmniej całego okna. */
+  font-family: Arial, sans-serif; /* Ustawia krój pisma z zapasem. */
+  color: #e8fff5; /* Ustawia podstawowy kolor tekstu. */
+  background: #101815; /* Ustawia tło całej strony. */
+}
+
+header,
+footer {
+  padding: 16px 24px; /* Dodaje przestrzeń wewnątrz nagłówka i stopki. */
+}
+
+main {
+  min-height: 75vh; /* Rezerwuje większość wysokości okna na treść. */
+  display: grid; /* Włącza układ Grid. */
+  place-items: center; /* Wyśrodkowuje zawartość w obu osiach. */
+  padding: 24px; /* Odsuwa treść od krawędzi. */
+}
+/* Główny kontener wizytówki. */
+.card {
+  width: min(100%, 560px); /* Szerokość elastyczna, maksymalnie 560 px. */
+  padding: 32px; /* Wewnętrzny odstęp od krawędzi karty. */
+  border: 1px solid #4cffb0; /* Zielone obramowanie karty. */
+  border-radius: 16px; /* Zaokrągla narożniki. */
+  background: #17231f; /* Odróżnia kartę od tła strony. */
+}
+
+/* Mała etykieta nad głównym nagłówkiem. */
+.eyebrow {
+  color: #4cffb0; /* Kolor akcentu. */
+  font-size: 12px; /* Zmniejsza tekst etykiety. */
+  letter-spacing: 0.12em; /* Zwiększa odstępy między literami. */
+}
+
+/* Główny nagłówek strony. */
+h1 {
+  margin-top: 8px; /* Zmniejsza odstęp nad nagłówkiem. */
+  font-size: 40px; /* Powiększa najważniejszy tekst. */
+}
+
+/* Elementy każdej listy. */
+li {
+  margin-block: 8px; /* Dodaje pionowy odstęp między elementami. */
+}
+
+/* Wspólne ustawienia linku i przycisku. */
+a,
+button {
+  display: inline-block; /* Pozwala stosować marginesy jak dla pudełka. */
+  margin-top: 16px; /* Oddziela kontrolki od treści powyżej. */
+}
+
+/* Wygląd przycisku interakcji. */
+button {
+  margin-left: 8px; /* Oddziela przycisk od linku. */
+  padding: 10px 14px; /* Powiększa obszar przycisku. */
+  border: 0; /* Usuwa domyślne obramowanie. */
+  border-radius: 6px; /* Zaokrągla narożniki przycisku. */
+  font: inherit; /* Dziedziczy krój pisma ze strony. */
+  color: #101815; /* Ustawia ciemny tekst. */
+  background: #4cffb0; /* Ustawia kontrastowe tło. */
+  cursor: pointer; /* Pokazuje kursor dłoni nad przyciskiem. */
 }
