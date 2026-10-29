@@ -1,0 +1,15 @@
+Z:\PjatkZadaniaProjekty\Bestiariusz\bin\Debug\net10.0\Bestiariusz.exe
+Z:\PjatkZadaniaProjekty\Bestiariusz\bin\Debug\net10.0\Bestiariusz.deps.json
+Z:\PjatkZadaniaProjekty\Bestiariusz\bin\Debug\net10.0\Bestiariusz.runtimeconfig.json
+Z:\PjatkZadaniaProjekty\Bestiariusz\bin\Debug\net10.0\Bestiariusz.dll
+Z:\PjatkZadaniaProjekty\Bestiariusz\bin\Debug\net10.0\Bestiariusz.pdb
+Z:\PjatkZadaniaProjekty\Bestiariusz\obj\Debug\net10.0\Bestiariusz.GeneratedMSBuildEditorConfig.editorconfig
+Z:\PjatkZadaniaProjekty\Bestiariusz\obj\Debug\net10.0\Bestiariusz.AssemblyInfoInputs.cache
+Z:\PjatkZadaniaProjekty\Bestiariusz\obj\Debug\net10.0\Bestiariusz.AssemblyInfo.cs
+Z:\PjatkZadaniaProjekty\Bestiariusz\obj\Debug\net10.0\Bestiariusz.csproj.CoreCompileInputs.cache
+Z:\PjatkZadaniaProjekty\Bestiariusz\obj\Debug\net10.0\Bestiariusz.sourcelink.json
+Z:\PjatkZadaniaProjekty\Bestiariusz\obj\Debug\net10.0\Bestiariusz.dll
+Z:\PjatkZadaniaProjekty\Bestiariusz\obj\Debug\net10.0\refint\Bestiariusz.dll
+Z:\PjatkZadaniaProjekty\Bestiariusz\obj\Debug\net10.0\Bestiariusz.pdb
+Z:\PjatkZadaniaProjekty\Bestiariusz\obj\Debug\net10.0\Bestiariusz.genruntimeconfig.cache
+Z:\PjatkZadaniaProjekty\Bestiariusz\obj\Debug\net10.0\ref\Bestiariusz.dll
