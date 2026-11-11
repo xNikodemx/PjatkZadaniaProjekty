@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bestiariusz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbf1a4b2e0a3867932649209e6a287c5dafe4a15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e6682d65abedef0b76f081e24c181e67f949bb6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bestiariusz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bestiariusz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
