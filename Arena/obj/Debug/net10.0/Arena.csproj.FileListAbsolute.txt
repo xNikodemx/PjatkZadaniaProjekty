@@ -1,0 +1,15 @@
+Z:\PjatkZadaniaProjekty\Arena\obj\Debug\net10.0\Arena.GeneratedMSBuildEditorConfig.editorconfig
+Z:\PjatkZadaniaProjekty\Arena\obj\Debug\net10.0\Arena.AssemblyInfoInputs.cache
+Z:\PjatkZadaniaProjekty\Arena\obj\Debug\net10.0\Arena.AssemblyInfo.cs
+Z:\PjatkZadaniaProjekty\Arena\obj\Debug\net10.0\Arena.csproj.CoreCompileInputs.cache
+Z:\PjatkZadaniaProjekty\Arena\obj\Debug\net10.0\Arena.sourcelink.json
+Z:\PjatkZadaniaProjekty\Arena\bin\Debug\net10.0\Arena.exe
+Z:\PjatkZadaniaProjekty\Arena\bin\Debug\net10.0\Arena.deps.json
+Z:\PjatkZadaniaProjekty\Arena\bin\Debug\net10.0\Arena.runtimeconfig.json
+Z:\PjatkZadaniaProjekty\Arena\bin\Debug\net10.0\Arena.dll
+Z:\PjatkZadaniaProjekty\Arena\bin\Debug\net10.0\Arena.pdb
+Z:\PjatkZadaniaProjekty\Arena\obj\Debug\net10.0\Arena.dll
+Z:\PjatkZadaniaProjekty\Arena\obj\Debug\net10.0\refint\Arena.dll
+Z:\PjatkZadaniaProjekty\Arena\obj\Debug\net10.0\Arena.pdb
+Z:\PjatkZadaniaProjekty\Arena\obj\Debug\net10.0\Arena.genruntimeconfig.cache
+Z:\PjatkZadaniaProjekty\Arena\obj\Debug\net10.0\ref\Arena.dll

@@ -1,0 +1,15 @@
+Z:\PjatkZadaniaProjekty\Week5-Quests\bin\Debug\net10.0\Week5-Quests.exe
+Z:\PjatkZadaniaProjekty\Week5-Quests\bin\Debug\net10.0\Week5-Quests.deps.json
+Z:\PjatkZadaniaProjekty\Week5-Quests\bin\Debug\net10.0\Week5-Quests.runtimeconfig.json
+Z:\PjatkZadaniaProjekty\Week5-Quests\bin\Debug\net10.0\Week5-Quests.dll
+Z:\PjatkZadaniaProjekty\Week5-Quests\bin\Debug\net10.0\Week5-Quests.pdb
+Z:\PjatkZadaniaProjekty\Week5-Quests\obj\Debug\net10.0\Week5-Quests.GeneratedMSBuildEditorConfig.editorconfig
+Z:\PjatkZadaniaProjekty\Week5-Quests\obj\Debug\net10.0\Week5-Quests.AssemblyInfoInputs.cache
+Z:\PjatkZadaniaProjekty\Week5-Quests\obj\Debug\net10.0\Week5-Quests.AssemblyInfo.cs
+Z:\PjatkZadaniaProjekty\Week5-Quests\obj\Debug\net10.0\Week5-Quests.csproj.CoreCompileInputs.cache
+Z:\PjatkZadaniaProjekty\Week5-Quests\obj\Debug\net10.0\Week5-Quests.sourcelink.json
+Z:\PjatkZadaniaProjekty\Week5-Quests\obj\Debug\net10.0\Week5-Quests.dll
+Z:\PjatkZadaniaProjekty\Week5-Quests\obj\Debug\net10.0\refint\Week5-Quests.dll
+Z:\PjatkZadaniaProjekty\Week5-Quests\obj\Debug\net10.0\Week5-Quests.pdb
+Z:\PjatkZadaniaProjekty\Week5-Quests\obj\Debug\net10.0\Week5-Quests.genruntimeconfig.cache
+Z:\PjatkZadaniaProjekty\Week5-Quests\obj\Debug\net10.0\ref\Week5-Quests.dll
